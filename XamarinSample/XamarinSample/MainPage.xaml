@@ -3,9 +3,40 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:XamarinSample"
              x:Class="XamarinSample.MainPage">
-
-	<Label Text="This is a different text than before." 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />
-
+    
+  <Scrollview>
+    <StackLayout
+        VerticalOptions="FillAndExpand"
+        HorizontalOptions="FillAndExpand">
+        
+        <Label Text="Registration Form"
+               FontSize ="32"
+               TextColor="Red"
+               FontAttributes="Bold"/>
+        <Label Text ="Welcome to the registration form!  Please fill out the following information to register for the event:"
+               FontSize="24"/>
+        <Label Text="Personal Information:"
+               FontSize="24"
+               TextColor="Blue"/>
+        
+        <Entry Placeholder="First Name"/>
+        <Entry Placeholder="Middle Initial"/>
+        <Entry Placeholder="Last Name"/>
+        
+        <Label Text="Address"
+               FontSize="24"
+               TextColor="Blue"/>
+        <Entry Placeholder="Address"/>
+        <Entry Placeholder="City"/>
+        <Entry Placeholder="State"/>
+        <Entry Placeholder="Zip Code"/>
+        
+        <Label Text="Notes"
+               FontSize="24"/>
+        <Entry/>
+        
+        
+        <Editor HeightRequest="100"/>
+        </StackLayout>
+     </Scrollview>
 </ContentPage>
