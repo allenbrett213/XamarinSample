@@ -4,7 +4,7 @@
              xmlns:local="clr-namespace:XamarinSample"
              x:Class="XamarinSample.MainPage">
     
-  <Scrollview>
+  <ScrollView>
     <StackLayout
         VerticalOptions="FillAndExpand"
         HorizontalOptions="FillAndExpand">
@@ -34,9 +34,14 @@
         <Label Text="Notes"
                FontSize="24"/>
         <Entry/>
-        
-        
-        <Editor HeightRequest="100"/>
+
+            <Button Text="Submit"
+                    Clicked="Button_Clicked"/>
+
+
+
+
+            <Editor HeightRequest="100"/>
         </StackLayout>
-     </Scrollview>
+     </ScrollView>
 </ContentPage>
