@@ -4,7 +4,9 @@
              x:Class="XamarinSample.Page1">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin Forms!" />
+            <Label Text="Success"
+                   TextColor="Green"
+                   FontSize="32"/>
             <Button Text="Go back"
                     Clicked="BackButton_Clicked"/>
         </StackLayout>
