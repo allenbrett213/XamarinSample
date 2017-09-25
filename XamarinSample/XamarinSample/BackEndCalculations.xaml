@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinSample.BackEndCalculations">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Entry
+                x:Name="Entry1"
+                Placeholder="Enter a number"/>
+            
+            <Entry
+                x:Name="Entry2"
+                Placeholder="Enter a second number"/>
+
+            <Label Text="Your Total is: "
+                   x:Name="CalculateLabel"/>
+
+            <Button Text="Calculate"
+                    x:Name="CalculateButton"
+                    Clicked="CalculateButton_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

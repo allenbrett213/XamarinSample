@@ -23,7 +23,12 @@ namespace XamarinSample
 
         private void ToDo_Button_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new Page2());
+            Navigation.PushAsync(new ToDoPage());
+        }
+
+        private void Back_End_Button_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new BackEndCalculations());
         }
     }
 }

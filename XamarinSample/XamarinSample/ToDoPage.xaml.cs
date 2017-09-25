@@ -10,10 +10,10 @@ using Xamarin.Forms.Xaml;
 namespace XamarinSample
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Page2 : ContentPage
+    public partial class ToDoPage : ContentPage
     {
         public List<string> TodoItems { get; set; }
-        public Page2()
+        public ToDoPage()
         {
             InitializeComponent();
 

@@ -48,6 +48,10 @@
                 Clicked="ToDo_Button_Clicked"/>
 
             <ListView x:Name="TodoItemsListview"/>
+
+            <Button Text="Go to Back-end Calculations"
+                x:Name="BackEndButton"
+                Clicked="Back_End_Button_Clicked"/>
         </StackLayout>
      </ScrollView>
 </ContentPage>
