@@ -42,6 +42,12 @@
 
 
             <Editor HeightRequest="100"/>
+
+            <Button Text="Go to To-dos"
+                x:Name="ToDoButton "
+                Clicked="ToDo_Button_Clicked"/>
+
+            <ListView x:Name="TodoItemsListview"/>
         </StackLayout>
      </ScrollView>
 </ContentPage>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinSample.Page2">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry x:Name="newToDoItemEntry"
+                   Placeholder="Enter an item"/>
+
+            <Button x:Name="addTodoItemButton"
+                    Text="Add Item"
+                    Clicked="addTodoItemButton_Clicked"/>
+
+            <Button x:Name="removeToDoItemsButton"
+                    Text="Remove Items"
+                    Clicked="removeToDoItemsButton_Clicked"/>
+
+            <ListView x:Name="todoItemsListView"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
