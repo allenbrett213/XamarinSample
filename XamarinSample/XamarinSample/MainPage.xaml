@@ -52,6 +52,10 @@
             <Button Text="Go to Back-end Calculations"
                 x:Name="BackEndButton"
                 Clicked="Back_End_Button_Clicked"/>
+
+            <Button Text=" grid button"
+                x:Name="GridButton"
+                Clicked="GridButton_Clicked"/>
         </StackLayout>
      </ScrollView>
 </ContentPage>

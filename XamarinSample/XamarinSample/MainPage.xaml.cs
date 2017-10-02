@@ -30,5 +30,10 @@ namespace XamarinSample
         {
             Navigation.PushAsync(new BackEndCalculations());
         }
+
+        private void GridButton_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new GridPage());
+        }
     }
 }
